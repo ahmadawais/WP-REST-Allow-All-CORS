@@ -2,14 +2,14 @@
 /**
  * Plugin Name: WP-REST-Allow-All-CORS
  * Plugin URI: http://AhmadAwais.com/
- * Description: Allow all cross origin requests to your WordPress site's REST API..
+ * Description: Allow all cross origin requests to your WordPress site's REST API.
  * Author: mrahmadawais, WPTie
  * Author URI: http://AhmadAwais.com/
  * Version: 1.0.0
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
- * @package WP
+ * @package WPRAC
  */
 
 // Exit if accessed directly.
@@ -17,12 +17,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-
-
 // Make sure the function is unique.
 if ( ! function_exists( 'wp_rest_allow_all_cors' ) ) {
 	// Hook.
 	add_action( 'rest_api_init', 'wp_rest_allow_all_cors', 15 );
+
 	/**
 	 * Allow all CORS.
 	 *

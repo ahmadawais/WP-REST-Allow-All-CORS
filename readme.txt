@@ -1,6 +1,3 @@
-# WP-REST-Allow-All-CORS
-
-```
 === WP-REST-Allow-All-CORS ===
 Contributors: mrahmadawais,wptie
 Donate link: https://AhmadAwais.com/
@@ -8,7 +5,6 @@ Tags: wp-rest-api,cors
 Requires at least: 4.7.0
 Tested up to: 4.7.3
 Stable tag: 1.0.0
-```
 
 Allow all cross origin requests to your WordPress site's REST API.
 
