@@ -12,18 +12,18 @@ Stable tag: 1.0.0
 
 Allow all cross origin requests to your WordPress site's REST API.
 
-== Description ==
+## Description
 
 Allow all cross origin requests to your WordPress site's REST API.
 
-== Frequently Asked Questions ==
+##Frequently Asked Questions
 
 = Would it be a security concern to allow all? =
 
 No. I allow it. Not allowing is a gentle request that may or may not be granted. Just like `robots.txt` cannot really stop a bot from visiting your site if a bot doesn't care. I mean, remember it's not security, it's a polite request.
 
 
-== Changelog ==
+##Changelog
 
-= 1.0 =
+### Release 1.0.0
 * Allows all CORS.
