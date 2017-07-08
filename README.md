@@ -36,7 +36,7 @@ Allow all cross origin requests to your WordPress site's REST API.
 
 Allow all cross origin requests to your WordPress site's REST API.
 
-##Frequently Asked Questions
+## Frequently Asked Questions
 
 = Would it be a security concern to allow all? =
 
